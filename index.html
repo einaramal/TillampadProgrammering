@@ -1,69 +1,227 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>PLanering 2021-2022 tillämpad programmering - spelutveckling</title>
+    <title>Planering 2021-2022 tillämpad programmering - spelutveckling</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
-        tr:nth-child(even) {background-color: #333;}
-        th {background-color: dimgray}
-        table{
-            width: 100%;
-        }
-        th, td {
-            padding: 15px;
-            text-align: left;
-            
-            /*border-bottom: 1px solid #ddd;*/
-        }
-        body{
-            color: whitesmoke;
-            background-color: #222;
-            font-family: "Lucida Console", "Courier New", monospace;
-        }
-        a{
-            color: whitesmoke;
-            line-height: 1.8;
-        }
+        a, a:visited {
+        color: grey;
+    }
+
+    a:hover, a:active {
+        color: white;
+    }
+
+    a {
+        color: lightgrey;
+    }
+    div.jumbotron{
+        background-image: url(bg.png);
+    }
     </style>
 </head>
 
-<body>
-    <table>
-        <tr>
-            <th>Vecka</th>
-            <th>Onsdag</th>
-            <th>Fredag</th>
-        </tr>
-        <tr>
-            <td>Vecka 34</td>
-            <td><a href="https://learn.unity.com/tutorial/set-up-your-first-project-in-unity">Lesson 1.1 - Start your 3D
-                    Engines</a> </td>
-            <td><a href="https://learn.unity.com/tutorial/1-2-move-the-vehicle-with-your-first-line-of-c">Lesson 1.2 -
-                    Pedal to the Metal</a> </td>
-        </tr>
-        <tr>
-            <td>Vecka 35</td>
-            <td><a href="https://learn.unity.com/tutorial/1-3-make-the-camera-follow-the-vehicle-with-variables">Lesson
-                    1.3 - High Speed Chase</a> </td>
-            <td><a href="https://learn.unity.com/tutorial/lesson-1-4-use-user-input-to-control-the-vehicle">Lesson 1.4 -
-                    Step into the Driver's Seat</a> </td>
-        </tr>
-        <tr>
-            <td>Vecka 36</td>
-            <td>
-                <a href="https://learn.unity.com/tutorial/challenge-1-steer-a-plane-through-obstacles-in-the-sky">Challenge
-                    1 - Plane Programming</a><br>
-                <a href="https://learn.unity.com/quiz/quiz-1-9s">Quiz 1</a>
-            </td>
-            <td>
-                <a href="https://learn.unity.com/tutorial/lab-1-personal-project-plan">Lab 1 - Project Design
-                    Document</a><br>
-                <a href="https://learn.unity.com/tutorial/bonus-features-1-share-your-work">Bonus Features 1 - Share
-                    your Work</a>
-            </td>
-        </tr>
-    </table>
+<body class="bg-dark text-white">
+    <div class="jumbotron bg-info">
+        <h1>Planering Tillämpad programmering</h1>
+        <p>Läsår 2021-2022</p>
+    </div>
+    <div class="container-md">
+        <table class="table table-dark table-striped table-hover">
+            <tr>
+                <th>Vecka</th>
+                <th>Onsdag</th>
+                <th>Fredag</th>
+            </tr>
+            <tr>
+                <td>Vecka 34</td>
+                <td><a href="https://learn.unity.com/tutorial/set-up-your-first-project-in-unity">Lesson 1.1 - Start
+                        your 3D
+                        Engines</a> </td>
+                <td><a href="https://learn.unity.com/tutorial/1-2-move-the-vehicle-with-your-first-line-of-c">Lesson 1.2
+                        -
+                        Pedal to the Metal</a> </td>
+            </tr>
+            <tr>
+                <td>Vecka 35</td>
+                <td><a href="https://learn.unity.com/tutorial/1-3-make-the-camera-follow-the-vehicle-with-variables">Lesson
+                        1.3 - High Speed Chase</a> </td>
+                <td><a href="https://learn.unity.com/tutorial/lesson-1-4-use-user-input-to-control-the-vehicle">Lesson
+                        1.4 -
+                        Step into the Driver's Seat</a> </td>
+            </tr>
+            <tr>
+                <td>Vecka 36</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/challenge-1-steer-a-plane-through-obstacles-in-the-sky">Challenge
+                        1 - Plane Programming</a><br>
+                    <a href="https://learn.unity.com/quiz/quiz-1-9s">Quiz 1</a>
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lab-1-personal-project-plan">Lab 1 - Project Design
+                        Document</a><br>
+                    <a href="https://learn.unity.com/tutorial/bonus-features-1-share-your-work">Bonus Features 1 - Share
+                        your Work</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 37</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/unit-2-introduction?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cdcc312edbc2a24a41671e6">Unit 2 - Introduction</a><br>
+                    <a href="https://learn.unity.com/tutorial/lesson-2-1-control-player-bounds-with-if-then-statements?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cdcc312edbc2a24a41671e6">Lesson 2.1 - Player Positioning</a>
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-2-2-launch-projectiles-by-instantiating-prefabs?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cdcc312edbc2a24a41671e6">Lesson 2.2 - Food Flight</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 37</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-2-3-random-animal-stampede?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cdcc312edbc2a24a41671e6">Lesson 2.3 - Random Animal Stampede</a><br>
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-2-4-collision-decisions?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cdcc312edbc2a24a41671e6">Lesson 2.4 - Collision Decisions</a><br>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>Vecka 38</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/challenge-2-play-fetch-with-random-values-and-arrays?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cdcc312edbc2a24a41671e6">Challenge 2 - Play Fetch</a><br>                    
+                    <a href="https://learn.unity.com/quiz/quiz-2-z8?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cdcc312edbc2a24a41671e6">Quiz 2</a><br>
+                </td>
+                <td>
+                    <strong>Studiedag</strong><br>
+                </td>                
+            </tr>
+            <tr>
+                <td>Vecka 39</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lab-2-new-project-with-primitives?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cdcc312edbc2a24a41671e6">Lab 2 - New Project with Primitives</a><br>
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/unit-3-introduction?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf9639bedbc2a2b1fe1e848">Unit 3 - Introduction</a><br>
+                    <a href="https://learn.unity.com/tutorial/lesson-3-1-jump-force?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf9639bedbc2a2b1fe1e848">Lesson 3.1 - Jump Force</a><br>
+                </td>                
+            </tr>
+            <tr>
+                <td>Vecka 40</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-3-2-make-the-world-whiz-by?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf9639bedbc2a2b1fe1e848">Lesson 3.2 - Make the World Whiz By</a><br>        
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-3-3-don-t-just-stand-there?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf9639bedbc2a2b1fe1e848">Lesson 3.3 - Don't Just Stand There
+                    </a><br>
+                </td>                
+            </tr>
+            <tr>
+                <td>Vecka 41</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/particles-and-sound-effects?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf9639bedbc2a2b1fe1e848">Lesson 3.4 - Particles and Sound Effects</a><br>          
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/challenge-3-bouncy-balloons-bombs-and-booleans?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf9639bedbc2a2b1fe1e848">Challenge 3 - Balloons, Bombs, & Booleans</a><br>
+                    <a href="https://learn.unity.com/quiz/quiz-3-tt?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf9639bedbc2a2b1fe1e848">Quiz 3</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 42</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lab-3-player-control?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf9639bedbc2a2b1fe1e848">Lab 3 - Player Control</a><br>          
+                </td>
+                <td>                    
+                    <a href="https://learn.unity.com/tutorial/unit-4-introduction?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96846edbc2a2bcde6d0fc">Unit 4 - Introduction</a><br>          
+                    <a href="https://learn.unity.com/tutorial/lesson-4-1-watch-where-you-re-going?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96846edbc2a2bcde6d0fc">Lesson 4.1 - Watch Where You’re Going</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 43</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-plan-4-2-follow-the-player?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96846edbc2a2bcde6d0fc">Lesson 4.2 - Follow the Player</a><br>
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-4-3-powerup-and-countdown?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96846edbc2a2bcde6d0fc">Lesson 4.3 - PowerUp and CountDown</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 44</td>
+                <td>
+                    <strong>LOV</strong><br>          
+                </td>
+                <td>
+                    <strong>LOV</strong><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 45</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-4-4-for-loops-for-waves?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96846edbc2a2bcde6d0fc">Lesson 4.4 - For-Loops For Waves</a><br>
+                </td>
+                <td>
+                    <a ref="https://learn.unity.com/tutorial/challenge-4-soccer-scripting?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96846edbc2a2bcde6d0fc">Challenge 4 - Soccer Scripting</a><br>
+                    <a href="https://learn.unity.com/quiz/quiz-4-rg?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96846edbc2a2bcde6d0fc">Quiz 4</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 46</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lab-4-basic-gameplay?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96846edbc2a2bcde6d0fc">Lab 4 - Basic Gameplay</a><br>
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/unit-5-introduction?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96bdeedbc2a2b475972b3">Unit 5 - Introduction</a><br>
+                    <a href="https://learn.unity.com/tutorial/lesson-5-1-clicky-mouse?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96bdeedbc2a2b475972b3">Lesson 5.1 - Clicky Mouse</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 47</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-5-2-keeping-score?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96bdeedbc2a2b475972b3">Lesson 5.2 - Keeping Score</a><br>
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-5-3-game-over?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96bdeedbc2a2b475972b3">Lesson 5.3 - Game Over</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 48</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lesson-5-4-what-s-the-difficulty?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96bdeedbc2a2b475972b3">Lesson 5.4 - What’s the Difficulty?</a><br>
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/challenge-5-whack-a-food-with-wacky-ui?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96bdeedbc2a2b475972b3">Challenge 5 - Whack-a-Food</a><br>
+                    <a href="https://learn.unity.com/quiz/quiz-5-qa?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96bdeedbc2a2b475972b3">Quiz 5</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 49</td>
+                <td>
+                    <a href="https://learn.unity.com/tutorial/lab-5-swap-out-your-assets-1?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f&projectId=5cf96bdeedbc2a2b475972b3">Lab 5 - Swap out your Assets</a><br>
+                </td>
+                <td>
+                    <a href="https://learn.unity.com/project/next-steps?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f">Next Steps</a><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Vecka 50</td>
+                <td>
+                    <a href="https://learn.unity.com/project/next-steps?uv=2020.3&courseId=5cf96c41edbc2a2ca6e8810f">Next Steps</a><br>
+                </td>
+                <td>
+                    <strong>Julavslutning för kursen</strong>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
